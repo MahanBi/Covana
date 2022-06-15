@@ -19,3 +19,11 @@ ConversationBot written in julia
 - [ ] Training
 
 - [ ] NLP
+
+- [ ] Graph Algorithms
+
+- [ ] Socket Handler
+
+- [ ] SQL, NoSQL
+
+- [ ] Analysis Data
