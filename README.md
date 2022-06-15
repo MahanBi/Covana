@@ -6,7 +6,7 @@ ConversationBot written in julia
 
 [Discord](https://discord.gg/f29y4zK6s2)
 
-### TODO
+### Main TODO
 
 - [ ] Neo4j Graph Database
 
@@ -27,3 +27,11 @@ ConversationBot written in julia
 - [ ] SQL, NoSQL
 
 - [ ] Analysis Data
+
+- [ ] Add To Julia Packages
+
+- [ ] Port Package For Python and more ...
+
+- [ ] Making Panel
+
+- [ ] RestAPi Support
