@@ -8,5 +8,14 @@ ConversationBot written in julia
 
 ### TODO
 
-- [] Neo4j Graph Database
-- 
+- [ ] Neo4j Graph Database
+
+- [ ] Template
+
+- [ ] Logic
+
+- [ ] Planning
+
+- [ ] Training
+
+- [ ] NLP
