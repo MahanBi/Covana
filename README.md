@@ -35,3 +35,5 @@ ConversationBot written in julia
 - [ ] Making Panel
 
 - [ ] RestAPi Support
+
+- [ ] ML, Training
