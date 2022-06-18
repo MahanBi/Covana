@@ -1,7 +1,7 @@
 export Message
 
 struct Message
-    reply_on::Union{Message, String}
+    reply_on::Message
     message::String
 end
 
