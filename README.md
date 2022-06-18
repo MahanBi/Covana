@@ -1,4 +1,4 @@
-# ConversationBot
+# Covana
 
 ConversationBot written in julia
 
