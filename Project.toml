@@ -1,10 +1,7 @@
 [deps]
-<<<<<<< HEAD
 ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
 DocOpt = "968ba79b-81e4-546f-ab3a-2eecfa62a9db"
-=======
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
->>>>>>> 14f905cbb0cb1c58bd038415bb1093f92eb654d2
 Neo4j = "d2adbeaf-5838-5367-8a2f-e46d570981db"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 TerminalMenus = "dc548174-15c3-5faf-af27-7997cfbde655"
