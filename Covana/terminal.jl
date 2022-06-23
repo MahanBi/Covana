@@ -1,25 +1,39 @@
 using ArgParse
 
+function command_handler(line::String)::Nothing
+    
+end
+
 """
 
 """
 function cli_handler(parsed_args::Dict{String,Any})
-    
+
     function conv() # TODO: get data from trained logic and make converstation
         while true
             print(">>> ")
             line = readline()
+            if startswith(line, '%')
+                command_handler(line)
+            else
+                # TODO: To Train lines
+            end
         end
     end
-    
+
     function train() # TODO: complete after trainig logic
         while true
             print(">>> ")
             line = readline()
-        end    
+            if startswith(line, '%')
+                command_handler(line)
+            else
+                # TODO: To Train lines
+            end
+        end
     end
 
-    if parsed_args["%command%"] == "conv"
+    if parsed_args["%COMMAND%"] == "conv"
         conv()
     else
         train()
@@ -29,7 +43,7 @@ end
 
 function parse_cli()
     parser = ArgParseSettings(
-        description="""
+        description = """
         ╔═╗┌─┐┬  ┬┌─┐┌┐┌┌─┐\n
         ║  │ │└┐┌┘├─┤│││├─┤\n
         ╚═╝└─┘ └┘ ┴ ┴┘└┘┴ ┴\n
@@ -58,6 +72,6 @@ function parse_cli()
 end
 
 function main()
-    cli_handler(pars_cli())
+    cli_handler(parse_cli())
 end
 main()
