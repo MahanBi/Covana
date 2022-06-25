@@ -1,5 +1,12 @@
 using Neo4j
 
+mutable struct Neo4jDatabase
+    
+end
+
+function connect_to_node4j()
+
+end
 
 function craete_node()
     
